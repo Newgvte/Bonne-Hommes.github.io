@@ -1,0 +1,227 @@
+#wrapper {
+    background: #eFD9D1;
+        width: 100%;
+        max-width: 68em;
+        margin: 0 auto;
+        padding: 0 2.5em;
+    }
+
+    p {
+    margin: 0 0 2.25em 0;
+}
+
+h2, h3, h4 {
+    color: #e89697;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 0 0.5625em 0;
+}
+
+
+h3 {
+    font-size: 1.75em;
+    line-height: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+
+hr {
+    border: 0;
+    border-bottom: solid 2px #f4f4f4;
+    margin: 2.25em 0;
+}
+
+    hr.major {
+        margin: 3.375em 0;
+    }
+    h2 br, h3 br, h4 br {
+        display: none;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+    html {
+        box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body, textarea {
+        font-size: 12pt;
+    }
+    
+    body {
+        line-height: 1;
+        -webkit-text-size-adjust: none;
+        zoom: 80%;
+
+    }
+    
+        body, textarea {
+            color: #888;
+            font-family: "Lato", sans-serif;
+            font-size: 16pt;
+            font-weight: 400;
+            line-height: 1.75em;
+            
+        }
+        
+            a:hover {
+                border-bottom-color: transparent;
+                color: #e89697 !important;
+            }
+    
+        strong, b {
+            color: #777;
+            font-weight: 700;
+        }
+    
+        .align-left {
+            text-align: left;
+        }
+    
+        .align-center {
+            text-align: center;
+        }
+    
+        .align-right {
+            text-align: right;
+        }
+        header p {
+            color: #aaa;
+            position: relative;
+            margin: 0 0 1.6875em 0;
+        }
+    
+        header h2 + p {
+            font-size: 1.25em;
+            margin-top: -0.5em;
+            line-height: 1.5em;
+        }
+    
+        header h3 + p {
+            font-size: 1.1em;
+            margin-top: -0.35em;
+            line-height: 1.5em;
+        }
+    
+        header h4 + p {
+            font-size: 0.9em;
+            margin-top: -0.25em;
+            line-height: 1.5em;
+        }
+    
+        header.major h2 {
+            color: #e89697;
+            font-size: 3.5em;
+        }
+    
+            header.major h2 + p {
+                color: #777;
+                font-size: 1.75em;
+                font-weight: 700;
+                margin-top: -0.75em;
+            }
+            header br {
+                display: none;
+            }
+    
+            header.major h2 {
+                font-size: 2.5em;
+            }
+    
+                header.major h2 + p {
+                    font-size: 1.5em;
+                }
+                ol, ul {
+                    list-style: none;
+                }
+                    ol {
+                        list-style: decimal;
+                        margin: 0 0 2.25em 0;
+                        padding-left: 1.25em;
+                    }
+                
+                        ol li {
+                            padding-left: 0.25em;
+                        }
+                
+                    ul {
+                        list-style: disc;
+                        margin: 0 0 2.25em 0;
+                        padding-left: 1em;
+                    }
+                
+                        ul li {
+                            padding-left: 0.5em;
+                        }
+                
+                        ul.alt {
+                            list-style: none;
+                            padding-left: 0;
+                        }
+                
+                            ul.alt li {
+                                border-top: solid 2px #f4f4f4;
+                                padding: 0.5em 0;
+                            }
+                
+                                ul.alt li:first-child {
+                                    border-top: 0;
+                                    padding-top: 0;
+                                }
+                
+                /*détails*/
+                
+                    .features article {
+                        border-top: solid 3px #f4CDC8;
+                        margin-bottom: 2.25em;
+                        padding-top: 2.25em;
+                    }
+                
+                        .features article:first-child {
+                            border-top: 0;
+                            padding-top: 0;
+                        }
+                
+                        .features article .image {
+                            display: inline-block;
+                            padding-right: 2.5em;
+                            vertical-align: middle;
+                            width: 48%;
+                        }
+                
+                            .features article .image img {
+                                display: block;
+                                width: 100%;
+                            }
+                
+                        .features article .inner {
+                            display: inline-block;
+                            vertical-align: middle;
+                            width: 50%;
+                        }
+                
+                            .features article .inner > :last-child {
+                                margin-bottom: 0;
+                            }
+                            

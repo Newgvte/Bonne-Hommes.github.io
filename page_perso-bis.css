@@ -1,0 +1,89 @@
+#logo {
+  
+    text-align: center;
+    display:flex;
+    margin:auto;
+    width:8%;
+    height:8%;
+    position: static;
+     }
+
+html {
+    background-color: #fffff0;
+}
+body {
+    color:white;
+    background-image: url(images/psg.jpg);
+
+}
+h1 {
+    text-align: center;
+    font-family: saira condensed;
+    color: white;
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+    font-family: saira condensed;
+    color:white;
+    padding-left: 60px;
+}
+p {
+    font-size: 25px;
+    text-align: justify;
+    width: 35%;
+    padding-left: 20px;
+}
+#bh {
+    float:right;
+    padding-right: 80px;
+    height: 300px;
+    width: 300px;
+}
+#ney {
+    float:right;
+    height:910px;
+    width:650px;
+    padding-top: 20px;
+    padding-right: 180px;
+}
+table {
+    margin-left: 35px;
+    margin-top: 30px;
+}
+table, td {
+	border: 6px black solid;
+}
+table img {
+    height: 150px;
+    width:150px;
+}
+.titref {
+    color: #fffff0;
+}
+footer{
+    background-color:darkblue;
+    font-family: Saira condensed;
+    color:#fffff0;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+footer ul{
+    list-style-type: none;
+    margin:5;
+    padding:5;
+    overflow: hidden;
+    background-color:red;
+    padding-bottom: 5px;
+}
+footer li{
+    float:left;
+    width: 15%;
+    height: 60px;
+    background-color:red;
+}
+#picto{
+    width:3%;
+    height:3%;
+    margin:15px;
+}

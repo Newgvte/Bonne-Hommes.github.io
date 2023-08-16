@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Oswald:wght@200;300&family=Saira+Condensed:wght@500&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fffff0;
+    zoom:80%;
+
+}
+
+/*HEADER*/
+
+header{
+    background-color: #f6bfcc;
+}
+
+
+nav {
+    justify-content: center;
+    display: flex;
+    align-items: baseline;
+    border-bottom: 10px ;
+    text-decoration: none;
+    background-color:#f6bfcc; 
+}
+nav .rubrique {
+    margin-top: 3px;
+    margin-left: 30px;
+    font-family: Saira;
+    font-size:30px;
+}
+nav .rubrique a{
+
+    text-decoration: none;
+    color:#fffff0;
+    margin-right: 80px;
+}
+nav .rubrique a:hover{
+    
+    background-color: #fffff0;
+    color: #f6bfcc;
+}
+
+ #logo {
+text-align: center;
+display:flex;
+margin:auto;
+width:8%;
+height:8%;
+ }
+main {
+    text-align: center;
+    
+}
+
+.titre{
+    font-family: Saira;
+    font-size: 35px;
+  margin-bottom: 20px;
+  color: #f6bfcc;
+  text-align: center;
+  font-style: bold;
+}
+
+
+.Nousco {
+    padding-left: 50px;
+padding-right: 50px;
+   font-family: Lora;
+   font-size: 30px;
+   text-align: center;
+   font-style: bold;
+   margin-bottom: 150px;
+   text-align: justify;
+   
+} 
+.pourquoi{
+    padding-left: 50px;
+    padding-right: 50px;
+
+  font-family: Lora;
+  font-size: 30px;
+  text-align: left;
+  vertical-align: middle;
+  width:50%;
+}
+
+.flotte {
+  float:right;
+  }
+  .Paragraphe{
+    text-align:justify;
+    text-justify:inter-word;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+.col-size {
+    width: 23%;
+    padding: 23% 0 0 0;
+    background-color:#C389BC;
+    display:inline-block;
+    margin-right: 3%;
+}
+.col-size2 {
+    width: 23%;
+    padding: 23% 0 0 0;
+    background-color:#F6BFCC ;
+    display:inline-block;
+    margin-right: 3%;
+}
+.col-size3 {
+    width: 23%;
+    padding: 23% 0 0 0;
+    background:#F3966D ;
+    display:inline-block;
+    margin-top: 30px;
+}
+.col-size4 {
+    width: 23%;
+    padding: 23% 0 0 0;
+    background:#62C4DC;
+    display:inline-block;
+    margin-top: 30px;
+    margin-right: 3%;
+}
+.col-size5 {
+  width: 23%;
+  padding: 23% 0 0 0;
+  background:#98CCA4;
+  display:inline-block;
+  margin-top: 30px;
+  
+}
+.col-size:hover {
+width: 24%;
+padding: 24% 0 0 0;
+}
+.col-size2:hover {
+width: 24%;
+padding: 24% 0 0 0;
+}
+.col-size3:hover {
+width: 24%;
+padding: 24% 0 0 0;
+}
+.col-size4:hover {
+width: 24%;
+padding: 24% 0 0 0;
+}
+.col-size5:hover {
+width: 24%;
+padding: 24% 0 0 0;
+}
+/*.Marine {
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Marine p {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: blue;
+}*/
+
+footer{
+    background-color:#f6bfcc;
+    font-family: Saira condensed;
+    color:#fffff0;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+footer ul{
+    list-style-type: none;
+    margin:5;
+    padding:5;
+    overflow: hidden;
+    background-color:#f6bfcc;
+}
+footer li{
+    float:left;
+    width: 15%;
+    height: 60px;
+    background-color:#f6bfcc;
+}
+#picto{
+    width:3%;
+    height:3%;
+    margin:15px;
+}
+#facebook{
+    width:1.5%;
+    height:1.5%;
+    margin:15px;
+}
+
+#visio {
+    float:right;
+    height: 700px;;
+    width:700px;
+    padding-right: 50px;
+
+}
+/*.Paragraphe {
+    padding-top: 15%;
+}*/
+.titrep {
+    padding-top: 20%;
+    color: #f6bfcc;
+    font-family: Saira;
+    font-size: 45px;
+    padding-right: 50px;
+
+}
+.pk {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    color: #f6bfcc;
+    font-size: 45px;
+    text-align: left;
+    font-family: Saira;
+}
+div.enfant {
+    display: none;
+  }
+  
+div.parent:hover .enfant {
+    display: block;
+}
+.parent:hover {
+    color: #f6bfcc;
+}
+.carré a {
+    text-decoration: none;
+    color: #fffff0;
+    font-size: 50px;
+    font-family: saira condensed;
+}

@@ -1,0 +1,27 @@
+h1 {
+text-align: justify;
+margin: 385px 100px 30px 550px;
+width: 35%;
+font-family: saira condensed;
+font-size: 30px;
+}
+body {
+    color:white;
+    background-image: url(images/parc\ des\ princes.jpg);
+
+}
+#bouton {
+    height: 60px;
+    width: 115px;
+    background-color: transparent;
+    color: white;
+font-family: saira condensed;
+border: solid white 2px;
+margin-left: 750px;
+font-size: 21px;
+border-radius: 2px;
+}
+#bouton:hover {
+    background-color:white;
+    color:black;
+}

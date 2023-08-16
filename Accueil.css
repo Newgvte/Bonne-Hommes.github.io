@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Oswald:wght@200;300&family=Saira+Condensed:wght@500&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fffff0;
+    zoom:80%;
+
+}
+h1 {
+  color:black;
+}
+nav .rubrique a:hover{
+    
+  background-color: #fffff0;
+  color: #c389bc;
+}
+/*HEADER*/
+
+header{
+    background-color: #c389bc;
+    font-family: verdana;
+}
+ .instruire h1 {
+   color:#f3966D;
+   font-size:40px;
+   margin-top: 90px;
+
+ }
+
+ .Transmettre h1 {
+  color:#62C4DC;
+  font-size:40px;
+  margin-top: 90px;
+
+}
+.Eduquer h1 {
+  color:#98CCA2;
+  font-size:40px;
+  margin-top: 90px;
+
+}
+.phrase{
+    animation-duration: 4s;
+    animation-name: slidein;
+    font-family: Lora;
+    font-size: 20px;
+    text-align: center;
+    font-style: bold;
+    text-shadow: 5px 5px 2px white;
+    color: rgba(0, 0, 0, 0.473);
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+nav {
+    justify-content: center;
+    display: flex;
+    align-items: baseline;
+    border-bottom: 10px ;
+    text-decoration: none;
+}
+
+
+nav .rubrique {
+    margin-top: 3px;
+    margin-left: 30px;
+    font-family: Saira;
+    font-size:30px;
+}
+
+nav .rubrique a{
+
+    text-decoration: none;
+color:#fffff0;
+  margin-right: 80px;
+    
+}
+ #logo {
+  
+text-align: center;
+display:flex;
+margin:auto;
+width:8%;
+height:8%;
+
+ }
+
+ 
+
+ /*MAIN*/
+
+
+
+  main {
+      text-align: center;
+      
+  }
+
+  .titre{
+      font-family: Saira;
+      font-size: 40px;
+      background-color: rgba(255, 235, 205, 0.39);
+    margin-bottom: 20px;
+  }
+
+ .instruire p {
+   font-family: lora;
+   font-size: 25px;
+   text-align: center;
+ }
+
+
+ .Transmettre p {
+  font-family: lora;
+  font-size: 25px;
+  text-align: center;
+}
+
+.Eduquer p {
+  font-family: lora;
+  font-size: 25px;
+  text-align: center;
+  
+}
+.titre p {
+  font-family: lora;
+  font-size: 25px;
+  text-align: center;
+
+}
+footer{
+  background-color:#c389bc;
+  font-family: Saira condensed;
+  color:#fffff0;
+  margin: 0 auto;
+  padding-bottom: 1%;
+}
+footer ul{
+  list-style-type: none;
+  margin:5;
+  padding:5;
+  overflow: hidden;
+  background-color:#c389bc;
+
+}
+footer li{
+  float:left;
+  width: 15%;
+  height: 60px;
+  background-color:#c389bc;
+}
+#picto{
+  width:3%;
+  height:3%;
+  margin:15px;
+}
+#facebook{
+  width:1.5%;
+  height:1.5%;
+  margin:15px;
+}

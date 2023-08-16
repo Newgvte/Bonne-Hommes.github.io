@@ -1,0 +1,66 @@
+html{
+    background-color: #cca9dd;
+}
+body {
+    zoom: 80%;
+}
+#naruto{
+    width:250px;
+    height:400px;
+    float:left;
+}
+#presentation{
+    background-color: #e4e6e5;
+    width:50%;
+    border-radius: 20px;
+    font-family: Montserrat;
+    text-align: justify;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    padding:2%;
+}
+h1{
+    font-size:3em;
+    text-align: center;
+    font-family: Lobster;
+    color:black;
+}
+h2{
+    font-size: 2em;
+    color:black;
+    font-family:Lora;
+}
+ol{
+    background-color: #e4e6e5;
+    width:20%;
+    margin-left:5%;
+    border-radius:20px;
+    padding: 20px;
+    display:inline-block;
+    font-family: Montserrat;
+}
+#passion{
+    background-color: #e4e6e5;
+    width:75%;
+    padding: 20px;
+    border-radius:20px;
+    text-align:center;
+    margin-left:5%;
+    font-family: Montserrat;
+}
+#obj{
+    width:50%;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+#logo{
+    float:right;
+    margin-top:-6%;
+    margin-right:20%;
+    cursor: pointer;
+}
+#logo :hover{
+    width:110%;
+    height:100%;
+}

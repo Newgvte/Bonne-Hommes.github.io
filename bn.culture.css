@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Oswald:wght@200;300&family=Saira+Condensed:wght@500&display=swap');
+
+body {
+ background: #fffff0;
+margin: 0 auto;
+ padding: 0;
+ background-color: #fffff0;
+    zoom:80%
+}
+
+header {
+    background-color: #98cca2;
+    font-family: Saira condensed;
+    font-size: 40px;
+    text-align: center;
+    font-style: bold;
+}
+
+#logo {
+  
+    text-align: center;
+    display:flex;
+    margin:auto;
+    width:8%;
+    height:8%;
+    
+     }
+
+nav {
+    justify-content: center;
+    display: flex;
+    align-items: baseline;
+    border-bottom: 10px ;
+    text-decoration: none;
+    background-color: #98cca2;
+    
+}
+
+nav .rubrique {
+    margin-top: 3px;
+    margin-left: 30px;
+    font-family: Saira;
+    font-size:30px;
+    
+}
+
+nav .rubrique a{
+
+    text-decoration: none;
+    color:#fffff0;
+    margin-right: 80px;
+    
+}
+nav .rubrique a:hover{
+    background-color: #fffff0;
+    color: #98cca2;
+}
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 1em 0;
+    font-family: Saira condensed;
+    color: #98cca2;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 2em 0;
+    font-family: Lora;
+    font-size: 25px;
+}
+hr {
+    border: 0;
+    border-bottom: solid 1px #c9c9c9;
+    margin: 2em 0;
+}
+h3 {
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 0 0 2em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+	font-size: 30px;
+    font-family: Saira condensed;
+    color: #98cca2;
+	}
+    blockquote {
+		border-left: solid 4px #c9c9c9;
+		font-family: Lora;
+        font-size: 25px;
+		margin: 0 0 2em 0;
+		padding: 0.5em 0 0.5em 2em;
+	}
+    img {
+        max-width: 100%;
+    }
+    #logo {
+      
+    text-align: center;
+    display:flex;
+    margin:auto;
+    width:8%;
+    height:8%;
+    
+     }
+    
+   
+    .align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
+   
+    #wrapper > * > .inner {
+		width: 100%;
+		max-width: 68em;
+		margin: 0 auto;
+		padding: 0 2.5em;
+	}
+    footer{
+        background-color:#98cca2;
+        font-family: Saira condensed;
+        color:#fffff0;
+        margin: 0 auto;
+        padding-bottom: 1%;
+    }
+    
+    footer ul{
+        list-style-type: none;
+        margin:5;
+        padding:5;
+        overflow: hidden;
+        background-color:#98cca2;
+    }
+    footer li{
+        float:left;
+        width: 15%;
+        height: 60px;
+        background-color:#98cca2;
+    }
+    #picto{
+        width:3%;
+        height:3%;
+        margin:15px;
+    }
+    #facebook{
+        width:1.5%;
+        height:1.5%;
+        margin:15px;
+    }
+    
+        
+    
+           

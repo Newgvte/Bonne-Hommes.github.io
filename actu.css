@@ -1,0 +1,169 @@
+nav {
+    justify-content: center;
+    display: flex;
+    align-items: baseline;
+    border-bottom: 10px ;
+    text-decoration: none;
+}
+
+
+nav .rubrique {
+    margin-top: 3px;
+    margin-left: 30px;
+    font-family: Saira;
+    font-size:30px;
+}
+nav .rubrique a{
+text-decoration: none;
+color:#fffff0;
+margin-right: 80px;  
+}
+nav .rubrique a:hover{
+    background-color: #fffff0;
+    color: #F3966D;
+}
+ #logo {
+  
+text-align: center;
+display:flex;
+margin:auto;
+width:8%;
+height:8%;
+position: static;
+ }
+
+ 
+
+ /*MAIN*/
+ /* main {
+      text-align: center;
+  }*/
+  header{
+    background-color: #F3966D;
+  }
+.titre{
+    color: #F3966D;
+    font-size: 65px;
+    
+    font-family: saira condensed; 
+}
+  h1 {
+      color: #F3966D;
+      font-size: 60px;
+      padding-left: 50px;
+      font-family: saira condensed;
+  }
+  div h1 {
+      text-align: center;
+  }
+  h2 {
+      font-size: 37px;
+      padding-left: 50px;
+  }
+  p { 
+      font-size: 33px;
+    width:50%;
+  font-family: Lora;
+padding-left: 50px;
+  }
+#images {
+     height:530px;
+      width: 530px;
+      float: right;
+padding-right: 50px;
+padding-bottom:5px ;
+  }
+#violences{
+    height:530px;
+    width: 530px;
+    float: right;
+padding-right: 50px;
+padding-top: 230px;
+
+}
+  body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fffff0;
+   zoom:80%;
+}
+footer{
+    background-color:#F3966D;
+    font-family: Saira condensed;
+    color:#fffff0;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+footer ul{
+    list-style-type: none;
+    margin:5;
+    padding:5;
+    overflow: hidden;
+    background-color:#F3966D;
+}
+footer li{
+    float:left;
+    width: 15%;
+    height: 60px;
+    background-color:#F3966D;
+}
+#picto{
+    width:3%;
+    height:3%;
+    margin:15px;
+}
+#facebook{
+    width:1.5%;
+    height:1.5%;
+    margin:15px;
+}
+
+.lsv {
+    padding-top: 5%;
+}
+#bouton {
+    height: 75px;
+    width: 125px;
+    background-color: #fffff0;
+    color: #F3966D;
+font-family: saira condensed;
+border: solid #F3966D 4px;
+margin-left: 50px;
+font-size: 21px;
+border-radius: 2px;
+}
+#bouton:hover {
+    background-color: #F3966D;
+    color: #fffff0;
+}
+/*#txt{
+    font-size:20px;
+    width:50%;
+    text-align: justify;
+}
+#visio {
+    float:right;
+    width: 800px;
+    height:400px;
+}*/
+
+/*.col-size {
+    width: 25%;
+    padding: 25% 0 0 0;
+    background-color:royalblue;
+}
+.col-size2 {
+    width: 25%;
+    padding: 25% 0 0 0;
+    background-color: red;
+}
+.col-size3 {
+    width: 25%;
+    padding: 25% 0 0 0;
+    background:green;
+}
+.col-size4 {
+    width: 25%;
+    padding: 25% 0 0 0;
+    background:yellow;
+}*/

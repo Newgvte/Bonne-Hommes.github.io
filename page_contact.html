@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="fr">
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="bn_contact.css" />
+</head>
+
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header>
+
+            <a href="Accueil.html">
+                <img id="logo" src="images/Logo_light.png" />
+            </a>
+            <nav>
+                <div class="rubrique">
+
+                    <a href="Accueil.html">Accueil</a>
+                    <a href="Nousco.html">Nous connaître</a>
+                    <a href="actu.html">Actu'</a>
+                    <a href="rencontres.html">Rencontres</a>
+                    <a href="bn.culture.html">Culture</a>
+                    <a href="page_contact.html">Contact</a>
+                </div>
+            </nav>
+
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+                <p></p>
+                <h1>Contact</h1>
+                <!-- Text -->
+                <section>
+                    <p id="p1">Tu trouveras ici toutes les informations pour nous contacter. A toi de jouer !</p>
+                    <!--Formulaire-->
+                    <div id=formulaire>
+                        <div>
+                            <label for="nom">Nom&nbsp;:</label>
+                            <input type="text" id="nom" placeholder="Votre nom" size="60">
+                        </div>
+                        <div>
+                            <label for="Prenom">Prénom&nbsp;:</label>
+                            <input type="text" id="prenom" placeholder="Votre prénom" size="60">
+                        </div>
+                        <div>
+                            <label for="age">Âge&nbsp;:</label>
+                            <input type="number" id="age" placeholder="Votre âge" min="10" max="99" size="60">
+                        </div>
+                        <div>
+                            <label for="email">Adresse mail&nbsp;:</label>
+                            <input type="email" id="email" placeholder="Votre adresse mail" size="60">
+                        </div>
+                        <div>
+                            <p>Sexe&nbsp;:</p>
+                            <label>
+                                <input name="user-recommend" value="homme" type="radio" checked />Homme</label>
+                            <label>
+                                <input name="user-recommend" value="femme" type="radio" />Femme</label>
+                            <label>
+                                <input name="user-recommend" value="autre" type="radio" />Autre</label>
+                        </div>
+                        <div>
+                            <p>Statut&nbsp;:</p>
+                            <select id="dropdown" name="statut" required>
+                                <option disabled selected value>Sélectionner un statut</option>
+                                <option value="student">Lycéen(ne)</option>
+                                <option value="student">Etudiant(e)</option>
+                                <option value="job">Employé(e)</option>
+                                <option value="other">Autres</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Message&nbsp;:</p>
+                            <textarea type="text" name="comment" id="message" placeholder="Entrez un message...">
+      </textarea>
+                        </div>
+                        <div>
+                            <p>Réception du message&nbsp;(à ne pas remplir) :</p>
+                            <textarea type="text" id="reception">
+      </textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Envoyer" onclick="contact()">
+                            <input type="reset" value="Effacer">
+                        </div>
+                        </form>
+                        <script src="contact_bh.js" type="text/javascript"></script>
+                    </div>
+                    <!--Fin formulaire-->
+                    <hr>
+                    </hr>
+                    <h3>Envoie-nous un message sur nos réseaux sociaux !</h3>
+                    <ul id="reseaux">
+                        <a href="./index.html">
+                            <img id="picto" src="images/picto_insta2.png" alt="Instagram">
+                        </a>
+                        <a href="./index.html">
+                            <img id="picto" src="images/twitter (1)2.png" alt="Twitter">
+                        </a>
+                        <a href="./index.html">
+                            <img id="facebook" src="images/facebook2.png" alt="Facebook">
+                        </a>
+                    </ul>
+                    <hr>
+                    </hr>
+                    <h3>Tu pourras nous trouver à cette adresse :</h3>
+                    <blockquote>240 Rue de la Motte, Moissy-Cramayel 77550</blockquote>
+                    <img class="deco" src="images/plan.png" />
+                    <hr>
+                    </hr>
+                </section>
+            </div>
+            <footer>
+                <h2>Pour plus d'informations :</h2>
+                <ul>
+                    <a href="./index.html">
+                        <img id="picto" src="images/picto_insta2.png" alt="Instagram">
+                    </a>
+                    <a href="./index.html">
+                        <img id="picto" src="images/twitter (1)2.png" alt="Twitter">
+                    </a>
+                    <a href="./index.html">
+                        <img id="facebook" src="images/facebook2.png" alt="Facebook">
+                    </a>
+                </ul>
+            </footer>
+</body>
+
+</html>
